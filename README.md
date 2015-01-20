@@ -10,6 +10,7 @@
     copy $HOME\vimfiles\.vimrc $HOME\_vimrc
 
 $HOME is the directory refered to by executing within gvim:
+
     :echo $HOME
 
 ###Instructions for non-windows###
