@@ -12,7 +12,7 @@
 $HOME is the directory refered to by executing within gvim:
     :echo $HOME
 
-#Instructions for non-windows
+###Instructions for non-windows###
     git clone https://github.com/pvhoffman/dotvim.git ~/.vim
     cp ~/.vim/.vimrc ~/.vimrc
 
