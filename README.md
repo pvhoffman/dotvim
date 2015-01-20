@@ -20,12 +20,15 @@ $HOME is the directory refered to by executing within gvim:
     cp ~/.vim/.vimrc ~/.vimrc
 
 
+###All###
+Clone fugutive from the link given above from within the bundle directory.
+
 ###Did it work?###
 See which scripts where loaded in MacVim/gVim by executing:
 
     :scriptnames
 
 
-Pathogen should have been loaded from within your $HOME directory and the included plugines loaded from the bundle directory.
+Pathogen should have been loaded from within your $HOME directory and the included plugins loaded from the bundle directory.
 
 
