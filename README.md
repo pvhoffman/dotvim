@@ -3,7 +3,6 @@
 * [bufexplorer](http://www.vim.org/scripts/script.php?script_id=42)
 * [bufkill](http://www.vim.org/scripts/script.php?script_id=1147)
 * [easy_align](https://github.com/junegunn/vim-easy-align)
-* [fugitive](https://github.com/tpope/vim-fugitive)
 
 ###Instructions for Windows###
     git clone https://github.com/pvhoffman/dotvim.git $HOME\vimfiles
@@ -21,7 +20,9 @@ $HOME is the directory refered to by executing within gvim:
 
 
 ###All###
-Clone fugutive from the link given above from within the bundle directory.
+For fugitive, from withing the bundle directory clone fugutive
+
+    git clone https://github.com/pvhoffman/vim-fugitive.git 
 
 ###Did it work?###
 See which scripts where loaded in MacVim/gVim by executing:
