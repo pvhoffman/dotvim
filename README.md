@@ -9,6 +9,8 @@
     git clone https://github.com/pvhoffman/dotvim.git $HOME\vimfiles
     copy $HOME\vimfiles\.vimrc $HOME\_vimrc
 
+Uncomment the guifont in $HOME\_vimrc for better fonts
+
 $HOME is the directory refered to by executing within gvim:
 
     :echo $HOME

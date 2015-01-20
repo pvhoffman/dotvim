@@ -160,3 +160,6 @@ set statusline+=\ %P    "percent through file
 vmap <Enter> <Plug>(EasyAlign)
 nmap <Leader>a <Plug>(EasyAlign)
 
+" Uncomment for better fonts on windows
+"set guifont=Consolas:h9:cANSI
+
