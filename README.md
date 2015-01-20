@@ -19,3 +19,13 @@ $HOME is the directory refered to by executing within gvim:
     git clone https://github.com/pvhoffman/dotvim.git ~/.vim
     cp ~/.vim/.vimrc ~/.vimrc
 
+
+###Did it work?###
+See which scripts where loaded in MacVim/gVim by executing:
+
+    :scriptnames
+
+
+Pathogen should have been loaded from within your $HOME directory and the included plugines loaded from the bundle directory.
+
+
