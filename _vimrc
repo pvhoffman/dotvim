@@ -100,8 +100,8 @@ filetype plugin on
 
 syntax on
 set background=dark
-colorscheme solarized
-" colorscheme slate
+" colorscheme solarized
+colorscheme slate
 set nowrap
 set linebreak
 
@@ -118,7 +118,7 @@ set hidden
 
 set smartindent
 set tabstop=8
-set shiftwidth=4
+set shiftwidth=3
 set expandtab
 
 map <leader>cd :cd %:p:h<CR>
@@ -140,6 +140,7 @@ map <C-L> :call g:ToggleNuMode()<CR>
 
 set noruler
 set laststatus=2
+set backspace=2
 
 set statusline=
 set statusline+=%-3.3n\ 
@@ -161,6 +162,18 @@ vmap <Enter> <Plug>(EasyAlign)
 nmap <Leader>a <Plug>(EasyAlign)
 
 " Uncomment for better fonts on windows
-set guifont=Consolas:h9:cANSI
+"set guifont=Consolas:h9:cANSI
 
-nnoremap <Leader>f :Unite file file_rec buffer<CR>
+" netrw configuration
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+augroup ProjectDrawer
+   autocmd!
+   autocmd VimEnter * :Vexplore
+augroup END
+
+nnoremap <Leader>e :e.<CR>
+
